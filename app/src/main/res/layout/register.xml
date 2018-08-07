@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".View.RegisterActivity">
+
+    <!--  <ImageView
+          android:id="@+id/register_favicon"
+          android:layout_width="96dp"
+          android:layout_height="96dp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginBottom="20dp"
+          android:layout_marginTop="20dp"
+          android:background="@mipmap/ic_launcher_round" />
+
+      <EditText
+          android:id="@+id/register_account"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="5dp"
+          android:hint="@string/accountNum" />
+
+      <EditText
+          android:id="@+id/register_password"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="5dp"
+          android:hint="@string/password" />
+
+      <EditText
+          android:id="@+id/register_retry_password"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="5dp"
+          android:hint="@string/retryPassword" />
+
+      <EditText
+          android:id="@+id/register_name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="5dp"
+          android:hint="@string/name" />
+
+
+      <EditText
+          android:id="@+id/register_phone"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="5dp"
+          android:hint="@string/phone"
+          android:inputType="phone" />
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_margin="6dp">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:text="@string/sex"
+              android:textSize="16sp" />
+
+          <RadioGroup
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="20dp"
+              android:orientation="horizontal">
+
+              <RadioButton
+                  android:id="@+id/register_sex_female"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="女" />
+
+              <RadioButton
+                  android:id="@+id/register_sex_male"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="男" />
+
+          </RadioGroup>
+
+
+      </LinearLayout>
+
+      <Button
+          android:id="@+id/register_btn"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="20dp"
+          android:background="@drawable/btn_register_bg"
+          android:text="@string/register"
+          android:textColor="@color/white" />
+
+      <TextView
+          android:id="@+id/register_login"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/loginDirectly"
+          android:textColor="@color/blue"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="10dp"/>-->
+</LinearLayout>

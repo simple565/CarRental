@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">租车</string>
+    <string name="home">主页</string>
+    <string name="account">我的</string>
+    <string name="myReservation">我的预约</string>
+    <string name="release">我的发布</string>
+    <string name="aboutUs">关于我们</string>
+    <!--注册-->
+    <string name="register">注册</string>'
+    <string name="password">密码</string>
+    <string name="checkPassword">确认密码</string>
+    <string name="setPassword">密码设置</string>
+
+    <string name="inputPassword">请输入密码</string>
+    <string name="retryPassword">请重新输入密码</string>
+    <string name="phone">请输入手机号</string>
+    <string name="getCode">获取验证码</string>
+    <string name="code">验证码</string>
+    <string name="inputCode">请输入验证码</string>
+    <string name="next">下一步</string>
+    <string name="finish">完成</string>
+    <string name="certifyPhone">验证手机</string>
+
+    <!--登录-->
+    <string name="login">登录</string>
+    <string name="loginDirectly">立即登录</string>
+    <string name="forgetPassword">忘记密码?</string>
+    <string name="head">+86</string>
+
+    <!--预约-->
+    <string name="reservation">预约</string>
+    <string name="all_reservation">全部</string>
+    <string name="ing_reservation">预约中</string>
+    <string name="end_reservation">已结束</string>
+    <string name="freeTime">空闲时间</string>
+    <string name="driver">司机</string>
+    <string name="license">车牌</string>
+    <string name="type">车型</string>
+    <string name="rentalDay">预约日期</string>
+    <string name="rentalTime">预约时间</string>
+    <string name="freeDate">空闲日期</string>
+    <string name="reservationPhone">预留电话</string>
+    <string name="submit">提交</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+    <!--我的发布-->
+    <string name="myPublish">我的发布</string>
+    <string name="publish">发布</string>
+    <string name="spare">空闲</string>
+    <string name="reserved">已被预约</string>
+    <string name="doing">进行中</string>
+    <string name="end">已结束</string>
+    <string name="orderDetail">订单详情</string>
+    <string name="accept">接单</string>
+
+    <!--修改资料-->
+    <string name="setInfo">修改资料</string>
+    <string name="accountNum">账号</string>
+    <string name="phoneNum">手机号</string>
+    <string name="name">姓名</string>
+    <string name="sex">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="logout">注销</string>
+
+</resources>

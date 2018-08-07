@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.ShowOrderActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/show_order_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        app:title="@string/orderDetail"
+        app:titleTextColor="@color/white" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:columnCount="2">
+
+        <TextView
+            style="@style/orderDetailView"
+            android:text="@string/driver" />
+
+        <TextView
+            android:id="@+id/detail_driver"
+            style="@style/orderDetailView" />
+
+        <TextView
+            style="@style/orderDetailView"
+            android:text="@string/license" />
+
+        <TextView
+            android:id="@+id/detail_license"
+            style="@style/orderDetailView" />
+
+        <TextView
+            style="@style/orderDetailView"
+            android:text="@string/type" />
+
+        <TextView
+            android:id="@+id/detail_type"
+            style="@style/orderDetailView" />
+
+        <TextView
+            style="@style/orderDetailView"
+            android:text="@string/freeTime" />
+
+        <TextView
+            android:id="@+id/detail_freeTime"
+            style="@style/orderDetailView" />
+
+        <TextView
+            android:id="@+id/detail_title_phone"
+            style="@style/orderDetailView"
+            android:text="@string/phoneNum" />
+
+        <TextView
+            android:id="@+id/detail_phone"
+            style="@style/orderDetailView" />
+
+        <TextView
+            android:id="@+id/detail_title_date"
+            style="@style/orderDetailView"
+            android:text="@string/rentalDay" />
+
+        <TextView
+            android:id="@+id/detail_rentalDay"
+            style="@style/orderDetailView" />
+
+        <TextView
+            android:id="@+id/detail_title_time"
+            style="@style/orderDetailView"
+            android:text="@string/rentalTime" />
+
+        <TextView
+            android:id="@+id/detail_rentalTime"
+            style="@style/orderDetailView" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/show_order_operate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/btn_bg_blue"
+        android:text="@string/accept"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</LinearLayout>

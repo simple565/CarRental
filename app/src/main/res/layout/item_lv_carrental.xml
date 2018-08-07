@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pageBg">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/dialog_bg"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/item_carRental_iv_car"
+            android:layout_width="64dp"
+            android:layout_height="64dp" />
+
+        <TextView
+            android:id="@+id/item_carRental_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/item_carRental_iv_car"
+            android:text="张三"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/item_carRental_tv_licensePlates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/item_carRental_tv_name"
+            android:layout_below="@id/item_carRental_tv_name"
+            android:text="车牌:闽D1234" />
+
+        <TextView
+            android:id="@+id/item_carRental_tv_carType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/item_carRental_tv_name"
+            android:layout_below="@id/item_carRental_tv_licensePlates"
+            android:text="玛莎拉蒂" />
+
+        <TextView
+            android:id="@+id/item_carRental_tv_freeTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/item_carRental_tv_name"
+            android:layout_below="@id/item_carRental_tv_carType"
+            android:text="空闲时间：2018-05-19 18：30-20：50" />
+
+        <Button
+            android:id="@+id/item_carRental_btn_reservation"
+            android:layout_width="64dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/btn_bg_blue"
+            android:text="预约"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</RelativeLayout>

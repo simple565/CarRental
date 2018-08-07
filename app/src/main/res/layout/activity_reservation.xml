@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/reservation_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        app:title="@string/reservation"
+        app:titleTextColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4">
+
+            <TextView
+                android:text="@string/driver"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/reservation_driver"
+                android:layout_width="match_parent"
+                android:layout_columnSpan="3"
+                android:enabled="false"
+                android:inputType="text" />
+
+            <TextView
+                android:text="@string/license"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/reservation_carLicense"
+                android:layout_width="match_parent"
+                android:layout_columnSpan="3"
+                android:enabled="false" />
+
+            <TextView
+                android:text="@string/type"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/reservation_carType"
+                android:layout_width="match_parent"
+                android:layout_columnSpan="3"
+                android:enabled="false" />
+
+            <TextView
+                android:text="@string/freeTime"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/reservation_free"
+                android:layout_width="match_parent"
+                android:layout_columnSpan="3"
+                android:enabled="false" />
+
+            <TextView
+                android:text="@string/rentalDay"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/reservation_date"
+                android:layout_width="match_parent"
+                android:layout_columnSpan="3"
+                android:enabled="false" />
+
+            <TextView
+                android:text="@string/rentalTime"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/reservation_time"
+                android:layout_width="match_parent"
+                android:layout_columnSpan="3" />
+
+            <TextView
+                android:text="@string/phone"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/reservation_phone"
+                android:layout_width="match_parent"
+                android:layout_columnSpan="3"
+                android:inputType="phone" />
+        </GridLayout>
+
+        <Button
+            android:id="@+id/reservation_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_bg_blue"
+            android:text="@string/submit"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
